@@ -1,0 +1,31 @@
+{
+  "name": "instructions",
+  "version": "0.0.0",
+  "description": "Gives any kind of instruction when the user visits the page.",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify main.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/instructions.git"
+  },
+  "homepage": "https://github.com/thlorenz/instructions",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "~6.3.2"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/thlorenz/instructions/blob/master/LICENSE"
+  },
+  "engine": {
+    "node": ">=0.8"
+  }
+}
