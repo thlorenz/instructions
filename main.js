@@ -25,7 +25,7 @@ function onNextLocation() {
 }
 
 if (nextLocation) {
-  var delay = q.d || q.delay || 2000
+  var delay = q.d || q.delay || 5000
   setTimeout(onNextLocation, delay)
 }
 
