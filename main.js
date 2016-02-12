@@ -18,3 +18,15 @@ if (script) {
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(el, s);
 }
+
+var nextLocation = q.l || q.loc || q.location
+function onNextLocation() {
+  window.location = nextLocation
+}
+
+if (nextLocation) {
+  var delay = q.d || q.delay || 2000
+  setTimeout(onNextLocation, delay)
+}
+
+if (!msg && !script && !nextLocation) message.innerHTML = 'Do what you want!'
