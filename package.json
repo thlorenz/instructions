@@ -13,7 +13,7 @@
   "homepage": "https://github.com/thlorenz/instructions",
   "dependencies": {},
   "devDependencies": {
-    "browserify": "~6.3.2"
+    "browserify": "~13.0.0"
   },
   "keywords": [],
   "author": {
