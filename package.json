@@ -4,7 +4,9 @@
   "description": "Gives any kind of instruction when the user visits the page.",
   "main": "index.js",
   "scripts": {
-    "build": "browserify main.js > bundle.js"
+    "build-edit": "browserify edit/main.js > edit/bundle.js",
+    "build-main": "browserify main.js > bundle.js",
+    "build": "npm run build-main && npm run build-edit"
   },
   "repository": {
     "type": "git",
