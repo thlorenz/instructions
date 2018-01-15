@@ -1,0 +1,21 @@
+#wrapper {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+}
+
+div.editor { 
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+
+div.content { 
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+}
