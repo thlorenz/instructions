@@ -4,6 +4,8 @@ const ace = require('brace')
 require('brace/mode/html')
 require('brace/theme/monokai')
 
+const debounce = require('debounce')
+
 function render() {
   const existing = document.getElementById('editor')
   if (existing != null) return
@@ -41,5 +43,4 @@ function renderEdits() {
 }
 
 renderEdits()
-editor.on('change', renderEdits)
-
+editor.on('change', debounce(renderEdits, 1000))
