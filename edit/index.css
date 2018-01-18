@@ -16,7 +16,24 @@ div.editor {
 div.content { 
   position: absolute;
   left: 50%;
+  top: 20px;
   width: 50%;
-  height: 100%;
   padding: 10px;
+}
+
+div.toolbar {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  width: 50%;
+  padding-left: 5px;
+}
+div.toolbar button {
+  height: 30px;
+  cursor: pointer;
+}
+
+div.toolbar input[type="text"] {
+  width: 250px;
+  height: 20px;
 }
