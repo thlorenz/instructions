@@ -50,3 +50,15 @@ body {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  height: 20px;
+  font-size: 22px;
+}
+
+.footer a {
+  color: lightblue;
+}
